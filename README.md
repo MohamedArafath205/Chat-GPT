@@ -5,10 +5,7 @@ Mail: mohamedarafath205@gmail.com
 LinkedIn: https://www.linkedin.com/in/mohdarafath/
 
 
-kindly remove the # YOUR_API_KEY in line 19 on app.py and paste your api_key from openai
 
-TO get one click this link
-https://platform.openai.com/account/api-keys
 
 To download the app copy this command or download as a zip file
 
@@ -24,10 +21,18 @@ navigate to the folder
 cd Chat-GPT
 ```
 
+kindly remove the # YOUR_API_KEY in line 19 on app.py and paste your api_key from openai
+
+TO get one click this link
+https://platform.openai.com/account/api-keys
+
 run this command after that
 
 ```
-pip install requirements.txt
+pip install openai==0.26.5
+pip install streamlit==1.19.0
+pip install streamlit-option-menu==0.3.2
+
 ```
 
 run the app using this command
