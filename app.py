@@ -16,7 +16,7 @@ st.title("This is my [GitHub](https://github.com/MohamedArafath205) follow me!")
 title = st.text_input("Ask me anything...")
 
 
-openai.api_key = "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"
+openai.api_key = YOUR_API_KEY
 
 
 response = openai.Completion.create(
